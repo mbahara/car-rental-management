@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{11B04ECB-1703-415C-B767-D1EE8D9434E9}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CarRentalManagement/Client/Shared/NavMenu.razor">
+    <Files>
+      <File FileName="CarRentalManagement/Client/Pages/Index.razor" />
+      <File FileName="CarRentalManagement/Client/Shared/MainLayout.razor" />
+      <File FileName="CarRentalManagement/Client/wwwroot/index.html" />
+      <File FileName="CarRentalManagement/Client/Shared/MainLayout.razor.css" />
+      <File FileName="CarRentalManagement/Client/Shared/NavMenu.razor" Line="38" Column="23" />
+      <File FileName="CarRentalManagement/Client/Shared/LoginDisplay.razor" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CarRentalManagement" expanded="True">
+            <Node name="CarRentalManagement.Client" expanded="True">
+              <Node name="Pages" expanded="True" selected="True" />
+              <Node name="Shared" expanded="True">
+                <Node name="MainLayout.razor" expanded="True" />
+                <Node name="NavMenu.razor" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="CarRentalManagement" expanded="True">
+            <Node name="CarRentalManagement.Client" expanded="True" />
+            <Node name="CarRentalManagement.Server" expanded="True" />
+            <Node name="CarRentalManagement.Shared" expanded="True">
+              <Node name="CarRentalManagement" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CarRentalManagement.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,235 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Server/CarRentalManagement.Server.csproj": {}
+  },
+  "projects": {
+    "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Client/CarRentalManagement.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Client/CarRentalManagement.Client.csproj",
+        "projectName": "CarRentalManagement.Client",
+        "projectPath": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Client/CarRentalManagement.Client.csproj",
+        "packagesPath": "/Users/bahara/.nuget/packages/",
+        "outputPath": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bahara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Shared/CarRentalManagement.Shared.csproj": {
+                "projectPath": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Shared/CarRentalManagement.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Server/CarRentalManagement.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Server/CarRentalManagement.Server.csproj",
+        "projectName": "CarRentalManagement.Server",
+        "projectPath": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Server/CarRentalManagement.Server.csproj",
+        "packagesPath": "/Users/bahara/.nuget/packages/",
+        "outputPath": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bahara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Client/CarRentalManagement.Client.csproj": {
+                "projectPath": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Client/CarRentalManagement.Client.csproj"
+              },
+              "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Shared/CarRentalManagement.Shared.csproj": {
+                "projectPath": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Shared/CarRentalManagement.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Shared/CarRentalManagement.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Shared/CarRentalManagement.Shared.csproj",
+        "projectName": "CarRentalManagement.Shared",
+        "projectPath": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Shared/CarRentalManagement.Shared.csproj",
+        "packagesPath": "/Users/bahara/.nuget/packages/",
+        "outputPath": "/Users/bahara/Development/Kurse/blazor-apps/CarRentalManagement/CarRentalManagement/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bahara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
